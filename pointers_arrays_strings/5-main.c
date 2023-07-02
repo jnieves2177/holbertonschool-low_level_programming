@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - check the code
@@ -7,9 +8,11 @@
  */
 int main(void)
 {
-    char *str;
+    char str[] = "Look up!\n";
+    char *ptr;
 
-    str = "0123456789";
-    puts2(str);
+    ptr = string_toupper(str);
+    printf("%s", ptr);
+    printf("%s", str);
     return (0);
 }
