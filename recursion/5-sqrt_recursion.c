@@ -9,7 +9,6 @@
 int _sqrt_recursion(int n)
 {
 	int x = 0;
-
 	return (findsq(n, x));
 }
 
