@@ -1,3 +1,4 @@
+#include "main.h"
 
 /**
  * _sqrt_recursion - calculates the sqrt of a number using recursion
@@ -8,8 +9,9 @@
 
 int _sqrt_recursion(int n)
 {
-	int x = 0;
-	return (findsq(n, x));
+    int x = 0;
+
+    return (findsq(n, x));
 }
 
 /**
@@ -22,9 +24,9 @@ int _sqrt_recursion(int n)
 
 int findsq(int n, int x)
 {
-	if ((x * x) > n)
-		return (-1);
-	if ((x * x) == n)
-		return (x);
-	return (findsq(n, (x + 1)));
+    if ((x * x) > n)
+        return (-1);
+    if ((x * x) == n)
+        return (x);
+    return (findsq(n, (x + 1)));
 }
