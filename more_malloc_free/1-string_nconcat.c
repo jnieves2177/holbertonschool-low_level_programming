@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- * Jose N.
  * string_nconcat - concatenates string to n bytes
  *
  * @s1: first string
