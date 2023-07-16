@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- * Jose N.
  * malloc_checked - allocates memory checks for failure
  *
  * @b: the size in bytes to allocate
