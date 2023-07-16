@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- * Jose N.
   * array_range - creates an array of integers
   *
   * @min: min value
