@@ -2,7 +2,6 @@
 #include "main.h"
 
 /**
- * Jose N.
  * _calloc - allocates space and inits to 0
  *
  * @nmemb: # of members
